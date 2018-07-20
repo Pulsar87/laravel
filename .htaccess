@@ -4,6 +4,8 @@
     </IfModule>
 
     RewriteEngine On
+    Options +FollowSymLinks
+    RewriteBase "/laravelgit/"
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
